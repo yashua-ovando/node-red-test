@@ -1,0 +1,12 @@
+{
+    "name": "rel-proj-2",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "rel-pro-2.json",
+            "credentialsFile": "rel-pro-2_cred.json"
+        }
+    }
+}
