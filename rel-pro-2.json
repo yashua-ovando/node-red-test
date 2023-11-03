@@ -1,1 +1,1109 @@
-[]
+[
+    {
+        "id": "935b2ff41025622c",
+        "type": "tab",
+        "label": "AssetKM",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "dcc06e4bc4ca5898",
+        "type": "tab",
+        "label": "insert-template",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b32a1674e5383012",
+        "type": "tab",
+        "label": "CM-Corrosion",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "12adbbf895b4e5aa",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4c6071bf6cecc680",
+        "type": "group",
+        "z": "dcc06e4bc4ca5898",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e6597d6df83e3d52",
+            "30f2fafa722edab2",
+            "dbd145189aa9c9eb",
+            "c51ff1c81023a1ac",
+            "a97c829bd3f74ba5",
+            "5eee0a30249dd174"
+        ],
+        "x": 114,
+        "y": 79,
+        "w": 852,
+        "h": 122
+    },
+    {
+        "id": "f588cb96c1af57a6",
+        "type": "group",
+        "z": "dcc06e4bc4ca5898",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9559600a3b2de05f",
+            "d9b1478db69ecacc",
+            "1465e586c5fbf360",
+            "f83f5b1744573799"
+        ],
+        "x": 114,
+        "y": 239,
+        "w": 632,
+        "h": 122
+    },
+    {
+        "id": "59242cb6fcfa2ad4",
+        "type": "entity",
+        "z": "935b2ff41025622c",
+        "name": "oxyreactor",
+        "props": [
+            {
+                "p": "owns",
+                "v": "ethylene_temp",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "ethylene_pressure",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "ethylene_flow",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "hcl_temp",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "hcl_pressure",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "hcl_flow",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "air_temp",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "air_pressure",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "air_flow",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "output_flow",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "catalyst_pressure",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "copper_loss",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "iron_loss",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "hcl_loss",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "index",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": true
+            },
+            {
+                "p": "owns",
+                "v": "temp_var",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "dew_point",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "sparger_pressure",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            },
+            {
+                "p": "owns",
+                "v": "sparger_damage",
+                "vtindex": "3",
+                "vt": "long",
+                "unique": false
+            }
+        ],
+        "property": "attributes",
+        "propertyType": "msg",
+        "abstract": false,
+        "x": 170,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e6597d6df83e3d52",
+        "type": "debug",
+        "z": "dcc06e4bc4ca5898",
+        "g": "4c6071bf6cecc680",
+        "name": "debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "30f2fafa722edab2",
+        "type": "csv",
+        "z": "dcc06e4bc4ca5898",
+        "g": "4c6071bf6cecc680",
+        "name": "",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "all",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 510,
+        "y": 160,
+        "wires": [
+            [
+                "5eee0a30249dd174"
+            ]
+        ]
+    },
+    {
+        "id": "dbd145189aa9c9eb",
+        "type": "file in",
+        "z": "dcc06e4bc4ca5898",
+        "g": "4c6071bf6cecc680",
+        "name": "read",
+        "filename": "/Users/yashuaovando/Downloads/RelianceDataset3 (1).csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 370,
+        "y": 160,
+        "wires": [
+            [
+                "30f2fafa722edab2"
+            ]
+        ]
+    },
+    {
+        "id": "c51ff1c81023a1ac",
+        "type": "inject",
+        "z": "dcc06e4bc4ca5898",
+        "g": "4c6071bf6cecc680",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 160,
+        "wires": [
+            [
+                "dbd145189aa9c9eb"
+            ]
+        ]
+    },
+    {
+        "id": "9559600a3b2de05f",
+        "type": "inject",
+        "z": "dcc06e4bc4ca5898",
+        "g": "f588cb96c1af57a6",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "data",
+        "payloadType": "flow",
+        "x": 220,
+        "y": 320,
+        "wires": [
+            [
+                "f83f5b1744573799"
+            ]
+        ]
+    },
+    {
+        "id": "a97c829bd3f74ba5",
+        "type": "comment",
+        "z": "dcc06e4bc4ca5898",
+        "g": "4c6071bf6cecc680",
+        "name": "1 load-context",
+        "info": "this flow will retrieve data from source (csv,sqllite3,etc) and uses the flow context by setting keys \"data\" and \"columns\" for future use by insert-query node",
+        "x": 220,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "d9b1478db69ecacc",
+        "type": "comment",
+        "z": "dcc06e4bc4ca5898",
+        "g": "f588cb96c1af57a6",
+        "name": "3 typedb-insert-entities",
+        "info": "prepares data to be used by platform using knowledge graphs in TypeDB",
+        "x": 240,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "1465e586c5fbf360",
+        "type": "debug",
+        "z": "dcc06e4bc4ca5898",
+        "g": "f588cb96c1af57a6",
+        "name": "insert-entities-debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "5eee0a30249dd174",
+        "type": "change",
+        "z": "dcc06e4bc4ca5898",
+        "g": "4c6071bf6cecc680",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "data",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "columns",
+                "pt": "flow",
+                "to": "columns",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 160,
+        "wires": [
+            [
+                "e6597d6df83e3d52"
+            ]
+        ]
+    },
+    {
+        "id": "f83f5b1744573799",
+        "type": "insert-query",
+        "z": "dcc06e4bc4ca5898",
+        "g": "f588cb96c1af57a6",
+        "name": "",
+        "kg": "935b2ff41025622c",
+        "kgFilename": "",
+        "props": [
+            {
+                "concept": "59242cb6fcfa2ad4",
+                "attribute": "ethylene_temp",
+                "column": "ethylene_temp"
+            },
+            {
+                "concept": "59242cb6fcfa2ad4",
+                "attribute": "ethylene_pressure",
+                "column": "ethylene_pressure"
+            },
+            {
+                "concept": "59242cb6fcfa2ad4",
+                "attribute": "ethylene_flow",
+                "column": "ethylene_flow"
+            },
+            {
+                "concept": "59242cb6fcfa2ad4",
+                "attribute": "hcl_temp",
+                "column": "hcl_temp"
+            },
+            {
+                "concept": "59242cb6fcfa2ad4",
+                "attribute": "hcl_pressure",
+                "column": "hcl_pressure"
+            },
+            {
+                "concept": "59242cb6fcfa2ad4",
+                "attribute": "hcl_flow",
+                "column": "hcl_flow"
+            },
+            {
+                "concept": "59242cb6fcfa2ad4",
+                "attribute": "air_temp",
+                "column": "air_temp"
+            },
+            {
+                "concept": "59242cb6fcfa2ad4",
+                "attribute": "air_flow",
+                "column": "air_flow"
+            },
+            {
+                "concept": "59242cb6fcfa2ad4",
+                "attribute": "output_flow",
+                "column": "output_flow"
+            },
+            {
+                "concept": "59242cb6fcfa2ad4",
+                "attribute": "copper_loss",
+                "column": "CU"
+            },
+            {
+                "concept": "59242cb6fcfa2ad4",
+                "attribute": "hcl_loss",
+                "column": "HCL"
+            },
+            {
+                "concept": "59242cb6fcfa2ad4",
+                "attribute": "temp_var",
+                "column": "temp_var"
+            },
+            {
+                "concept": "59242cb6fcfa2ad4",
+                "attribute": "dew_point",
+                "column": "dew_form"
+            },
+            {
+                "concept": "59242cb6fcfa2ad4",
+                "attribute": "sparger_damage",
+                "column": "sparger_damage"
+            },
+            {
+                "concept": "59242cb6fcfa2ad4",
+                "attribute": "sparger_pressure",
+                "column": "sparger_pressure"
+            },
+            {
+                "concept": "59242cb6fcfa2ad4",
+                "attribute": "index",
+                "column": "index"
+            }
+        ],
+        "kg_name": "AssetKM",
+        "concept": "59242cb6fcfa2ad4",
+        "conceptName": "oxyreactor",
+        "conceptType": "entity",
+        "roleMap": "",
+        "localetime": "America/Chicago",
+        "x": 390,
+        "y": 320,
+        "wires": [
+            [
+                "1465e586c5fbf360"
+            ]
+        ]
+    },
+    {
+        "id": "961eb48455985e98",
+        "type": "causeeffect",
+        "z": "b32a1674e5383012",
+        "name": "Sparger Damage",
+        "props": [
+            {
+                "p": "input",
+                "v": "59242cb6fcfa2ad4",
+                "vt": "935b2ff41025622c",
+                "attribute": "sparger_damage"
+            }
+        ],
+        "property": "attributes",
+        "propertyType": "msg",
+        "treatment": false,
+        "outcome": false,
+        "showeffects": false,
+        "shortenname": false,
+        "edgestrength": {
+            "Erosion": "0.00033435848806122174",
+            "Temperature Stress": "-0.0018082440011027358",
+            "Dew Point Corrosion": "-1.974668137125171e-05"
+        },
+        "causalmechanisms": [
+            "{'prediction_model': {}, 'causes': ['Dew Point Corrosion', 'Erosion', 'Temperature Stress']}"
+        ],
+        "intrinsiceffects": [
+            "{'HCl Temperature': 0.8868619778915685, 'HCl Pressure': 0.41132574454081283, 'Ethylene Pressure': 0.31510298267849113, 'Air Flow': 3.1160581911803695, 'Air Temperature': 0.5456402408010584, 'Ethylene Temperature': 0.46405540508811816, 'HCl Flow': 6.937524923188214, 'Ethylene Flow': 7.505479399622364, 'Temperature Stress': 2.2652862099646027, 'Dew Point Corrosion': -1.1324274851176597e-14, 'Erosion': 6.617213070185775, 'Sparger Damage': 5.18315346699706}"
+        ],
+        "jsondigraph": "",
+        "fx": "",
+        "edgedependencetest": [],
+        "localmarkovtest": [],
+        "cmtype": "GradientBoost",
+        "x": 1210,
+        "y": 340,
+        "wires": [
+            [
+                "dff47adea67ae05d",
+                "fd1ab16f8060b35e"
+            ]
+        ]
+    },
+    {
+        "id": "30cc60f48d9fcdc6",
+        "type": "causeeffect",
+        "z": "b32a1674e5383012",
+        "name": "HCl Temperature",
+        "props": [
+            {
+                "p": "input",
+                "v": "59242cb6fcfa2ad4",
+                "vt": "935b2ff41025622c",
+                "attribute": "hcl_temp"
+            }
+        ],
+        "property": "attributes",
+        "propertyType": "msg",
+        "treatment": false,
+        "outcome": false,
+        "jsondigraph": "",
+        "fx": "",
+        "x": 510,
+        "y": 280,
+        "wires": [
+            [
+                "43ce8b371d846929",
+                "11f7aba542804e79"
+            ]
+        ]
+    },
+    {
+        "id": "0ee20897982c54e6",
+        "type": "causeeffect",
+        "z": "b32a1674e5383012",
+        "name": "Ethylene Flow",
+        "props": [
+            {
+                "p": "input",
+                "v": "59242cb6fcfa2ad4",
+                "vt": "935b2ff41025622c",
+                "attribute": "ethylene_flow"
+            }
+        ],
+        "property": "attributes",
+        "propertyType": "msg",
+        "treatment": false,
+        "outcome": false,
+        "showeffects": false,
+        "shortenname": false,
+        "edgestrength": {
+            "Ethylene Pressure": "0.07225754849030167"
+        },
+        "causalmechanisms": [
+            "{'prediction_model': {}, 'causes': ['Ethylene Pressure']}"
+        ],
+        "intrinsiceffects": [
+            "{'Ethylene Pressure': -3.1086244689504383e-15, 'Ethylene Flow': 35.86897583514106}"
+        ],
+        "jsondigraph": "",
+        "fx": "",
+        "edgedependencetest": [],
+        "localmarkovtest": [],
+        "cmtype": "GradientBoost",
+        "x": 520,
+        "y": 540,
+        "wires": [
+            [
+                "ead66e4b7a9e45de"
+            ]
+        ]
+    },
+    {
+        "id": "eb71055c368c6599",
+        "type": "causeeffect",
+        "z": "b32a1674e5383012",
+        "name": "HCl Flow",
+        "props": [
+            {
+                "p": "input",
+                "v": "59242cb6fcfa2ad4",
+                "vt": "935b2ff41025622c",
+                "attribute": "hcl_flow"
+            }
+        ],
+        "property": "attributes",
+        "propertyType": "msg",
+        "treatment": false,
+        "outcome": false,
+        "showeffects": false,
+        "shortenname": false,
+        "edgestrength": {
+            "HCl Pressure": "-0.6312101579684094"
+        },
+        "causalmechanisms": [
+            "{'prediction_model': {}, 'causes': ['HCl Pressure']}"
+        ],
+        "intrinsiceffects": [
+            "{'HCl Pressure': 0.20447966944815554, 'HCl Flow': 33.99157389345372}"
+        ],
+        "jsondigraph": "",
+        "fx": "",
+        "edgedependencetest": [],
+        "localmarkovtest": [],
+        "cmtype": "GradientBoost",
+        "x": 540,
+        "y": 380,
+        "wires": [
+            [
+                "43ce8b371d846929",
+                "ead66e4b7a9e45de"
+            ]
+        ]
+    },
+    {
+        "id": "c963b69b9ba76d01",
+        "type": "causeeffect",
+        "z": "b32a1674e5383012",
+        "name": "HCl Pressure",
+        "props": [
+            {
+                "p": "input",
+                "v": "59242cb6fcfa2ad4",
+                "vt": "935b2ff41025622c",
+                "attribute": "hcl_pressure"
+            }
+        ],
+        "property": "attributes",
+        "propertyType": "msg",
+        "treatment": false,
+        "outcome": false,
+        "jsondigraph": "",
+        "fx": "",
+        "x": 250,
+        "y": 380,
+        "wires": [
+            [
+                "ead66e4b7a9e45de",
+                "eb71055c368c6599"
+            ]
+        ]
+    },
+    {
+        "id": "43ce8b371d846929",
+        "type": "causeeffect",
+        "z": "b32a1674e5383012",
+        "name": "Dew Point Corrosion",
+        "props": [
+            {
+                "p": "input",
+                "v": "59242cb6fcfa2ad4",
+                "vt": "935b2ff41025622c",
+                "attribute": "dew_point"
+            }
+        ],
+        "property": "attributes",
+        "propertyType": "msg",
+        "treatment": false,
+        "outcome": false,
+        "showeffects": false,
+        "shortenname": false,
+        "edgestrength": {
+            "HCl Flow": "0.0",
+            "Air Temperature": "0.0",
+            "HCl Temperature": "0.0",
+            "Ethylene Temperature": "0.0"
+        },
+        "causalmechanisms": [
+            "{'prediction_model': {}, 'causes': ['HCl Temperature', 'HCl Flow', 'Air Temperature', 'Ethylene Temperature']}"
+        ],
+        "intrinsiceffects": [
+            "{'Air Temperature': 0.0, 'HCl Pressure': 0.0, 'HCl Temperature': 0.0, 'Ethylene Temperature': 0.0, 'HCl Flow': 0.0, 'Dew Point Corrosion': 0.0}"
+        ],
+        "jsondigraph": "",
+        "fx": "",
+        "edgedependencetest": [],
+        "localmarkovtest": [],
+        "cmtype": "GradientBoost",
+        "x": 930,
+        "y": 340,
+        "wires": [
+            [
+                "961eb48455985e98"
+            ]
+        ]
+    },
+    {
+        "id": "ead66e4b7a9e45de",
+        "type": "causeeffect",
+        "z": "b32a1674e5383012",
+        "name": "Erosion",
+        "props": [
+            {
+                "p": "input",
+                "v": "59242cb6fcfa2ad4",
+                "vt": "935b2ff41025622c",
+                "attribute": "hcl_loss"
+            }
+        ],
+        "property": "attributes",
+        "propertyType": "msg",
+        "treatment": false,
+        "outcome": false,
+        "showeffects": true,
+        "shortenname": false,
+        "edgestrength": {
+            "HCl Flow": "0.003526294567129246",
+            "Air Flow": "0.0020746945384358746",
+            "Ethylene Flow": "0.000845362401645342",
+            "HCl Pressure": "0.0008452530050731407",
+            "Ethylene Pressure": "-0.0008241484373342539"
+        },
+        "causalmechanisms": [
+            "{'prediction_model': {'coef': [-5.862967937875236e-05, -0.0003926067283436369, -0.0997768889895355, 0.00014895824390436598, -0.054959588523798564], 'intercept': 0.8809836838983096, 'params': {'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'normalize': 'deprecated', 'positive': False}, 'parents_during_fit': ['Air Flow', 'Ethylene Flow', 'Ethylene Pressure', 'HCl Flow', 'HCl Pressure']}, 'causes': ['Ethylene Flow', 'HCl Flow', 'HCl Pressure', 'Ethylene Pressure', 'Air Flow']}"
+        ],
+        "intrinsiceffects": [
+            "{'HCl Pressure': 0.6312936754967695, 'Air Flow': 4.476497313760745, 'Ethylene Pressure': 0.2943977821253063, 'HCl Flow': 8.470681153371821, 'Ethylene Flow': 7.957226878463424, 'Erosion': 11.296497591938834}"
+        ],
+        "jsondigraph": "",
+        "fx": "-0.000059Ethylene Flow + -0.00039HCl Flow + -0.10HCl Pressure + 0.00015Ethylene Pressure + -0.055Air Flow + 0.8809836838983096",
+        "edgedependencetest": [],
+        "localmarkovtest": [],
+        "cmtype": "Linear",
+        "x": 960,
+        "y": 540,
+        "wires": [
+            [
+                "961eb48455985e98"
+            ]
+        ]
+    },
+    {
+        "id": "dff47adea67ae05d",
+        "type": "causeeffect",
+        "z": "b32a1674e5383012",
+        "name": "Output Flow",
+        "props": [
+            {
+                "p": "input",
+                "v": "59242cb6fcfa2ad4",
+                "vt": "935b2ff41025622c",
+                "attribute": "output_flow"
+            }
+        ],
+        "property": "attributes",
+        "propertyType": "msg",
+        "treatment": false,
+        "outcome": false,
+        "showeffects": false,
+        "shortenname": false,
+        "edgestrength": {
+            "Sparger Damage": "-0.0007012787271105553"
+        },
+        "causalmechanisms": [
+            "{'prediction_model': {}, 'causes': ['Sparger Damage']}"
+        ],
+        "intrinsiceffects": [
+            "{'HCl Temperature': 0.6051374097347401, 'HCl Pressure': 0.6111503940739735, 'Ethylene Pressure': 0.30225334842558277, 'Air Flow': 2.6253618863663446, 'Air Temperature': 0.3662940971246509, 'Ethylene Temperature': 0.5114840931827243, 'HCl Flow': 9.235918270687684, 'Ethylene Flow': 5.041071401879327, 'Temperature Stress': 2.495824816863145, 'Dew Point Corrosion': 4.001243780749064e-13, 'Erosion': 6.585529738852889, 'Sparger Damage': 2.6581601724999167, 'Output Flow': 2.1351286774486775}"
+        ],
+        "jsondigraph": "",
+        "fx": "",
+        "edgedependencetest": [],
+        "localmarkovtest": [],
+        "cmtype": "GradientBoost",
+        "x": 1490,
+        "y": 440,
+        "wires": [
+            [
+                "fd1ab16f8060b35e"
+            ]
+        ]
+    },
+    {
+        "id": "9b5326c304f4588f",
+        "type": "causeeffect",
+        "z": "b32a1674e5383012",
+        "name": "Ethylene Pressure",
+        "props": [
+            {
+                "p": "input",
+                "v": "59242cb6fcfa2ad4",
+                "vt": "935b2ff41025622c",
+                "attribute": "ethylene_pressure"
+            }
+        ],
+        "property": "attributes",
+        "propertyType": "msg",
+        "treatment": false,
+        "outcome": false,
+        "jsondigraph": "",
+        "fx": "",
+        "x": 230,
+        "y": 500,
+        "wires": [
+            [
+                "ead66e4b7a9e45de",
+                "0ee20897982c54e6"
+            ]
+        ]
+    },
+    {
+        "id": "aa04cdad63d1a024",
+        "type": "causeeffect",
+        "z": "b32a1674e5383012",
+        "name": "Air Flow",
+        "props": [
+            {
+                "p": "input",
+                "v": "59242cb6fcfa2ad4",
+                "vt": "935b2ff41025622c",
+                "attribute": "air_flow"
+            }
+        ],
+        "property": "attributes",
+        "propertyType": "msg",
+        "treatment": false,
+        "outcome": false,
+        "jsondigraph": "",
+        "fx": "",
+        "x": 540,
+        "y": 620,
+        "wires": [
+            [
+                "ead66e4b7a9e45de"
+            ]
+        ]
+    },
+    {
+        "id": "72f64940648b9f40",
+        "type": "causeeffect",
+        "z": "b32a1674e5383012",
+        "name": "Air Temperature",
+        "props": [
+            {
+                "p": "input",
+                "v": "59242cb6fcfa2ad4",
+                "vt": "935b2ff41025622c",
+                "attribute": "air_temp"
+            }
+        ],
+        "property": "attributes",
+        "propertyType": "msg",
+        "treatment": false,
+        "outcome": false,
+        "jsondigraph": "",
+        "fx": "",
+        "x": 520,
+        "y": 200,
+        "wires": [
+            [
+                "43ce8b371d846929",
+                "11f7aba542804e79"
+            ]
+        ]
+    },
+    {
+        "id": "47af6c206c5b9bba",
+        "type": "causeeffect",
+        "z": "b32a1674e5383012",
+        "name": "Ethylene Temperature",
+        "props": [
+            {
+                "p": "input",
+                "v": "59242cb6fcfa2ad4",
+                "vt": "935b2ff41025622c",
+                "attribute": "ethylene_temp"
+            }
+        ],
+        "property": "attributes",
+        "propertyType": "msg",
+        "treatment": false,
+        "outcome": false,
+        "jsondigraph": "",
+        "fx": "",
+        "x": 500,
+        "y": 120,
+        "wires": [
+            [
+                "43ce8b371d846929",
+                "11f7aba542804e79"
+            ]
+        ]
+    },
+    {
+        "id": "fd1ab16f8060b35e",
+        "type": "causeeffect",
+        "z": "b32a1674e5383012",
+        "name": "Copper Loss",
+        "props": [
+            {
+                "p": "input",
+                "v": "59242cb6fcfa2ad4",
+                "vt": "935b2ff41025622c",
+                "attribute": "copper_loss"
+            }
+        ],
+        "property": "attributes",
+        "propertyType": "msg",
+        "treatment": false,
+        "outcome": false,
+        "showeffects": false,
+        "shortenname": false,
+        "edgestrength": {
+            "Output Flow": "-0.03220482887623277",
+            "Sparger Damage": "-0.022136742108979302"
+        },
+        "causalmechanisms": [
+            "{'prediction_model': {}, 'causes': ['Sparger Damage', 'Output Flow']}"
+        ],
+        "intrinsiceffects": [
+            "{'HCl Temperature': 0.4073634248325751, 'HCl Pressure': 0.290156650387063, 'Ethylene Pressure': 0.180205542618236, 'Air Flow': 4.006479624746278, 'Air Temperature': 0.17388815387009943, 'Ethylene Temperature': 0.7002893566809817, 'HCl Flow': 5.980711514765691, 'Ethylene Flow': 5.6770416331149365, 'Temperature Stress': 1.6703557976691763, 'Dew Point Corrosion': 7.046215462954327e-15, 'Erosion': 4.246923174326081, 'Sparger Damage': 4.702758973811194, 'Output Flow': 4.2412170359631975, 'Copper Loss': 2.115584246642781}"
+        ],
+        "jsondigraph": "",
+        "fx": "-0.32Sparger Damage + -0.54Output Flow + 8.796908312637516",
+        "edgedependencetest": [],
+        "localmarkovtest": [],
+        "cmtype": "GradientBoost",
+        "x": 1730,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "11f7aba542804e79",
+        "type": "causeeffect",
+        "z": "b32a1674e5383012",
+        "name": "Temperature Stress",
+        "props": [
+            {
+                "p": "input",
+                "v": "59242cb6fcfa2ad4",
+                "vt": "935b2ff41025622c",
+                "attribute": "temp_var"
+            }
+        ],
+        "property": "attributes",
+        "propertyType": "msg",
+        "treatment": false,
+        "outcome": false,
+        "showeffects": true,
+        "shortenname": false,
+        "edgestrength": {
+            "HCl Temperature": "0.21492243821779258",
+            "Air Temperature": "-0.30780180401750845",
+            "Ethylene Temperature": "-0.03177601523021068"
+        },
+        "causalmechanisms": [
+            "{'prediction_model': {}, 'causes': ['HCl Temperature', 'Air Temperature', 'Ethylene Temperature']}"
+        ],
+        "intrinsiceffects": [
+            "{'Air Temperature': 4.901354075087429, 'Ethylene Temperature': 3.2535313733317257, 'HCl Temperature': 7.090505284531215, 'Temperature Stress': 15.457362121404831}"
+        ],
+        "jsondigraph": "",
+        "fx": "",
+        "edgedependencetest": [],
+        "localmarkovtest": [],
+        "cmtype": "GradientBoost",
+        "x": 910,
+        "y": 180,
+        "wires": [
+            [
+                "961eb48455985e98"
+            ]
+        ]
+    },
+    {
+        "id": "aa030922438a7858",
+        "type": "function",
+        "z": "12adbbf895b4e5aa",
+        "name": "TypeDB Query",
+        "func": "try {\n    // query statement to retrieve each causeffect in model\n    let query =\n        `\n    match \n     $causal_model(causeeffect: $ce) isa causal_model,  has nrid \"b32a1674e5383012\";\n    get \n     $ce;\n`\n    let clientId = \"\"\n    clientId = await RED.typedb.connectClient(\"localhost:1729\");\n    let session = await RED.typedb.openSession(clientId, \"causeway-repo\", \"DATA\");\n    let tx = await RED.typedb.openTransaction(clientId, \"READ\");\n    let result = await tx.query.match(query).collect()\n    console.log(\"Total causal effects found: \" ,result.length)\n    let attrs = {}\n    // compose dictionary for output\n    for (let index = 0; index < result.length; index++) {\n        let concept =Array.from(result[index].concepts())[0]\n        concept = concept.asRemote(tx)\n        let attributes = await concept.getHas().collect();\n        attrs = {...attrs, [index]: {}}\n        for (let ind = 0; ind < attributes.length; ind++) {\n            let attr = attributes[ind]\n            attrs = \n                attrs = { ...attrs, [index]: { ...attrs[index] , [attr.type.label.name]: attr.value }};\n        };\n    }\n    console.log(\"here\", attrs)\n    await tx.close();\n    await RED.typedb.closeSession(clientId);\n    await RED.typedb.closeClient(clientId);\n    return attrs;\n\n} catch (exception) {\n    return exception\n}\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 160,
+        "wires": [
+            [
+                "4b489b0015af5e91"
+            ]
+        ]
+    },
+    {
+        "id": "3c11810b4974c3b9",
+        "type": "inject",
+        "z": "12adbbf895b4e5aa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 300,
+        "y": 160,
+        "wires": [
+            [
+                "aa030922438a7858"
+            ]
+        ]
+    },
+    {
+        "id": "4b489b0015af5e91",
+        "type": "debug",
+        "z": "12adbbf895b4e5aa",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": false,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 160,
+        "wires": []
+    }
+]
